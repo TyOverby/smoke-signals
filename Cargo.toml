@@ -1,0 +1,12 @@
+[package]
+name = "smoke-signals"
+version = "0.1.0"
+authors = ["Ty Overby <ty@pre-alpha.com>"]
+
+[[bin]]
+name = "smoke-signals"
+path = "./src/bin.rs"
+
+[dependencies]
+irc_message = "*"
+irc-channel = "*"
